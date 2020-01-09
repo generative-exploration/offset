@@ -7,13 +7,11 @@ let myFont;
 
 function preload() {
   img = loadImage("0010.jpg");
-  myFont = loadFont('FiraCode-Regular.ttf');
 }
 
 function setup() {
   let c = createCanvas(960, 1200);
   image(img, 0, 0);
-  textFont(myFont);
   textSize(14);
 }
 
